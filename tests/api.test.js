@@ -12,6 +12,6 @@ describe("GET /api", () => {
         const response = await request(app).get("/api")
 
         expect(response.statusCode).toBe(200)
-        expect(response.body.message).toBe("Hello Word!")
+        expect(response.body.message).toBe("OLÁ MUNDO!")
     })
 })
